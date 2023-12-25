@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Home</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <h1>Home</h1>
+    </header>
+
+    <main style="background-image: url('images/textured-metal-background.jpg');">
+
+        <img src="images/main.jpeg" width="200">
+        <br />
+        <a href="log_in.html">
+            <button type="submit" style="
+                    background-color: #525252;
+                    color: white;
+                    padding: 14px 20px;
+                    margin: 8px 0;
+                    border: none;
+                    cursor: pointer;
+                    width: 10%;
+                ">LOGIN</button></a>
+        <section class="search">
+            <form>
+                <input type="text" placeholder="Search for a player.....">
+                <button type="submit">Search</button>
+            </form>
+        </section>
+
+        <section class="latest-news">
+            <h2>Players card</h2>
+            <!-- players content here -->
+
+            <a href="player_1.html">
+                <img src="images/bon.jpeg" width="200">
+            </a>
+
+            <br />
+
+            <a href="Player_2.html">
+                <img src="images/hasan.jpeg" width="200">
+            </a>
+
+            <br />
+
+            <a href="Player_3.html">
+                <img src="images/neymar.jpeg" width="200">
+            </a>
+
+            <br />
+
+            <a href="Player_4.html">
+                <img src="images/salah.jpeg" width="200">
+            </a>
+        </section>
+    </main>
+    <script>
+        let userName = prompt("Enter your name:");
+        window.alert("welcome" + " " +userName )
+
+    </script>
+
+</body>
+
+</html>

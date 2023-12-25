@@ -1,0 +1,33 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #f4f4f4;
+    padding: 20px;
+    text-align: center;
+}
+
+.player-info {
+    margin: 30px auto;
+    padding: 20px;
+    border: 1px solid #f4f4f4;
+    text-align: center;
+}
+
+.player-bio {
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #f4f4f4;
+}
+
+footer {
+    background-color: #f4f4f4;
+    padding: 20px;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+}
